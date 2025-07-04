@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas — Trust & Citation Quality Engine</title>
+    <meta name="description"
+        content="An intelligent search analyzer that scores web results for trustworthiness and citation quality.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Veritas</h1>
+            <p>A trust and citation quality engine that scores search results for credibility, authority, and
+                evidence-based content.</p>
+            <div class="supported-topics">
+                <span class="topics-label">Optimized for:</span>
+                <span class="topic-tag">Health</span>
+                <span class="topic-tag">Technology</span>
+                <span class="topic-tag">Finance</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input type="text" id="query-input" placeholder="Search health, technology, or finance topics..."
+                    autocomplete="off" spellcheck="false">
+                <button id="search-button" type="button">Analyze</button>
+            </div>
+
+            <div id="loader" class="hidden">
+                Analyzing sources and citations...
+            </div>
+
+            <div id="results-container"></div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
