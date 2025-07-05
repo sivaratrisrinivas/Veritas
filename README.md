@@ -4,6 +4,12 @@ Veritas is a proof-of-concept application that enhances Exa's AI search capabili
 
 This project was built to explore a contrarian idea: the next frontier for AI search isn't just about finding information, but about validating it. Veritas demonstrates how Exa's powerful API can be used not just as a tool, but as a partner in building more intelligent, reliable, and trustworthy AI systems.
 
+## 🚀 Live Demo
+
+**Try Veritas live:** [https://veritas-ryn9.onrender.com](https://veritas-ryn9.onrender.com)
+
+Experience the trust engine in action by searching for topics in Health, Technology, or Finance and see how each result gets scored for trustworthiness.
+
 ## The Problem: The AI's "Trust Blindness"
 
 Imagine you hire a brilliant, super-fast research assistant. You ask them to write a report on a complex topic, like the financial implications of a new technology.
